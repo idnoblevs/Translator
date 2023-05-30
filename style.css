@@ -1,0 +1,64 @@
+*{
+padding: 0%;
+margin: 0;
+box-sizing: border-box;
+background-color: burlywood;
+}
+
+header{
+    color: aqua;
+    margin-left: 15rem;
+    margin-bottom: 0.9rem;
+}
+
+span{
+    color: brown;
+
+
+}
+
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.translator{
+    width: 60vw;
+    margin: auto;
+    background-color: rgb(243, 131, 4);
+    padding: 5rem;
+
+}
+
+.translator textarea{
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+    border: none;
+    background-color: azure;
+}
+
+.translator textarea:focus{
+    outline: 0;
+}
+
+.translator button{
+    background-color: aqua;
+    padding: 0.4rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    border: 0;
+}
+
+select{
+    display: block;
+    padding: .4rem;
+    
+    border: 0;
+}
+
+select:focus{
+    outline: 0;
+}
